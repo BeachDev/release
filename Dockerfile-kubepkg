@@ -23,7 +23,7 @@ COPY . .
 RUN go build -o . ./cmd/kubepkg/...
 
 
-FROM debian:buster
+FROM debian:bullseye
 
 ENV DEBIAN_FRONTEND=noninteractive
 
