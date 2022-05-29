@@ -23,7 +23,7 @@ COPY . .
 RUN go build -o . ./cmd/kubepkg/...
 
 
-FROM debian:bullseye
+FROM debian:11
 
 ENV DEBIAN_FRONTEND=noninteractive
 
